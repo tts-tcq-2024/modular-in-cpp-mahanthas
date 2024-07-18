@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "Watercolorcoder.h"
+#include "watercolorcoder.h"
  
 void testNumberToPair(int pairNumber, TelCoColorCoder::MajorColor expectedMajor, TelCoColorCoder::MinorColor expectedMinor) {
     TelCoColorCoder::ColorPair colorPair = TelCoColorCoder::GetColorFromPairNumber(pairNumber);
